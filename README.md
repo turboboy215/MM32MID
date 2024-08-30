@@ -1,7 +1,7 @@
 # MM32MID
 Mega Man 3-5/Bionic Commando (Game Boy) to MIDI converter
 
-This tool converts music (and sound effects) from Game Boy games using Kouji Murata's sound engine to MIDI format. The sound engine was used almost exclusively in Capcom-produced games, namely Mega Man 3-5 and Bionic Commando (this program gets its name for Mega Man III). It was also used in the Japanese game Itsudemo Nyanto Wonderful, as well as most unlicensed games developed by Vast Fame (e.g. Zook Hero games), which use a revere-engineered sound engine from MM5 with the original sound effects unaltered.
+This tool converts music (and sound effects) from Game Boy games using Kouji Murata's sound engine to MIDI format. The sound engine was used almost exclusively in Capcom-produced games, namely Mega Man 3-5 and Bionic Commando (this program gets its name for Mega Man III). It was also used in the Japanese game Itsudemo Nyanto Wonderful, as well as most unlicensed GBC games developed by Vast Fame (e.g. Zook Hero games), which use a revere-engineered sound engine from MM5 with the original sound effects unaltered.
 
 It works with ROM images. To use it, you must specify the name of the ROM followed by the number of the bank containing the sound data (in hex). For games that contain two banks of music, you must run the program twice specifying where each different bank is located. However, in order to prevent files from being overwritten, the MIDI files from the previous bank must either be moved to a separate folder or renamed.
 
